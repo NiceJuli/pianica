@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>ШРИ - Игра пьяница</title>
+		<script src="jquery-1.10.2.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+    <div class="game-table">
+        <h1>Игра "Пьяница"</h1>
+            <span>Укажите количество игроков: </span>
+            <select name="count" id="count">
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+        <input type="button" name="start" value="Начать играть" id="start-btn" class="btn" /><br/>
+        <input type="button" name="go" value="сходить" id="go-btn" class="btn-go" />
+        <div id="result"></div>
+        <div id="players">
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
